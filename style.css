@@ -1,0 +1,77 @@
+body {
+    background-color: rgba(201, 163, 219, 0.5);
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/2560px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg');
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+header,footer {
+    background-color: rgba(255, 255, 255, 0.808);
+    text-align: center;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+li {
+    margin: 50px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    border: solid black 2px;
+}
+
+section p {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+
+li {
+    display: inline;
+}
+
+.portrait {
+    height: 300px;
+    border: solid black 6px;
+}
+
+#top {
+    width:1000px;
+}
+
+.display p {
+    width: 400px;
+    margin: 10px, 10px, 10px, 10px;
+}
+
+.display {
+    display: inline-block;
+    align-self: center;
+}
+
+#lace {
+    background-color: rgba(29, 16, 104, 0.8);
+}
+
+.sondheim {
+    margin-left: 25px;
+}
