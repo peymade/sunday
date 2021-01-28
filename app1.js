@@ -20,4 +20,28 @@ function checkUsername(){
 checkUsername();
 
 
-    
+function stars(){
+    let starNumber = prompt('How many music notes should be on the page? Enter a number between 1 and 20');
+ 
+    while (starNumber < 1 || starNumber > 20){
+        if (starNumber < 1){
+            alert('Sorry, too low.')
+            starNumber = prompt('How many music notes should be on the page? Enter a number between 1 and 20');
+        } else if (starNumber > 20){
+            alert('Sorry. Too high.')
+            starNumber = prompt('How many music notes should be on the page? Enter a number between 1 and 20');
+        } else{
+            break;
+        }
+        }
+        return starNumber;
+    }
+
+
+let moo = stars();
+
+
+let numberOverall = moo
+for(let i =0; i < numberOverall; i++){
+    document.write('<img src = "not.png">' + '</img>');
+}
